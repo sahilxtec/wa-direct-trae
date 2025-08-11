@@ -7,7 +7,7 @@ export default function Home() {
     <div className="font-sans flex flex-col items-center justify-between min-h-screen p-8 pb-20 gap-8 sm:p-10">
       <main className="flex flex-col gap-8 items-center w-full max-w-md mx-auto mt-10">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-2 dark:text-white">Send WhatsApp Direct</h1>
+          <h1 className="text-2xl font-bold mb-2 dark:text-white">Send WhatsApp Direct test</h1>
           <p className="text-sm text-gray-500 dark:text-gray-300 mb-6">
             Message without saving the contact
           </p>
