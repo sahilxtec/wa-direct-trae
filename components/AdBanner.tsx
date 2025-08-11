@@ -27,7 +27,7 @@ const AdBanner: React.FC<AdBannerProps> = ({
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client="ca-pub-7743182981419838" // Replace with your actual Google AdSense publisher ID
+        data-ad-client={`${process.env.PUBLIC_GOOGLE_ADSENSE_CLIENT}`} // Replace with your actual Google AdSense publisher ID
         data-ad-slot={adSlot}
         data-ad-format={adFormat}
         data-ad-layout={adLayout || undefined}
