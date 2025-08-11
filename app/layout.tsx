@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark:bg-gray-900">
       <head>
-        <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXXXXXXXX" />
+        <meta name="google-adsense-account" content="ca-pub-7743182981419838" />
         <link rel="icon" href="/whatsapp-logo.svg" type="image/svg+xml" />
       </head>
       <body
@@ -38,7 +38,7 @@ export default function RootLayout({
         {children}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7743182981419838"
           strategy="afterInteractive"
           crossOrigin="anonymous"
         />
